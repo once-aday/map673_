@@ -1,0 +1,44 @@
+COUNTY,LAT,LON,POP,POP_IN_WSP_AREA,COUNTY_WSPS
+Baringo,0.512912,35.952537,631638,6%,Eldama Ravine
+Bungoma,0.737046,34.672536,1697243,24%,Nzoia
+Busia,0.428414,34.210571,858259,47%,Kakamega Busia
+Elgeyo- Marakwet,0.806011,35.564093,424781,12%,Iten Tambach
+Embu,-0.5982,37.653906,561607,84%,"Embe, Embu, Ngandori Nginda, Kyeni, Ngagaka"
+Garissa,-0.564679,40.408457,747177,20%,Garissa
+Homa Bay,-0.640985,34.411083,1101125,11%,South Nyanza
+Isiolo,0.949302,38.614718,153968,41%,Isiolo
+Kajiado,-2.221971,36.980268,856926,66%,"Oloolaiser, Olkejuado, Nolturesh-Loitoktok, Namanga"
+Kakamega,0.308499,34.654844,1844304,22%,Kakamega-Busia
+Kericho,-0.297842,35.319833,847123,41%,"Kericho, Tililbei"
+Kiambu,-1.060698,36.79929,1841976,87%,"Gatundu South, Kikuyu, Ruiru-Juja, Thika, Kiambu, Githunguri, Karimenu, Karuri, Limuru"
+Kilifi,-3.279972,39.63501,1289613,84%,Kilifi-Mariakani Malindi
+Kirinyaga,-0.517766,37.302006,568864,78%,Gichugu Kirinyaga
+Kisii,-0.782524,34.766895,1319678,53%,Gusii
+Kisumu,-0.167225,34.953647,1105353,37%,Gulf Nyanas Kisumu
+Kitui,-1.519146,38.376101,1129118,100%,Kiambere Mwingi Kitui
+Kwale,-4.242667,39.174233,738931,40%,Kwale
+Laikipia,0.311627,36.814178,483390,36%,"Nanyuki, Nyahururu, Rumuruti"
+Lamu,-2.03752,40.688214,114714,19%,Lamu
+Machakos,-1.327138,37.352277,1195193,80%,"Machakos, Mavoko, Matungulu Kangundo, Mwala, Yatta,Kathiani"
+Makueni,-2.211917,37.865047,1015492,34%,"Wote, Kibwezi Makindu"
+Marsabit,2.772167,37.76822,334277,14%,Moyale
+Meru,0.159398,37.750761,1547298,38%,"Imetha, Meru, Tuuru"
+Migori,-1.008592,34.42681,1065835,24%,Mikutra
+Mombasa,-3.998813,39.632129,1071654,97%,Mombasa
+Murang'a,-0.804314,37.035566,1069569,90%,"Gatanga, Gatamathi, Kahuti, Muranga South, Muranga"
+Nairobi,-1.296975,36.844534,3836698,97%,Nairobi
+Nakuru,-0.385212,36.036261,1895066,55%,"Naivasha, Nakuru, Nakuru Rural"
+Nandi,0.143371,35.156125,868664,9%,"Nyanas, Kapsabet Nandi"
+Narok,-1.227452,35.686784,1000899,7%,Narok
+Nyamira,-0.644917,34.955612,673572,100%,Gusii
+Nyandarua,-0.374727,36.494076,701363,38%,"Engineer, Nyandarua, Olkalou"
+Nyeri,-0.407168,36.965186,721748,76%,"Nyeri, Mathira, Othaya Mukurweini, Tetu Aberdare"
+Samburu,1.183862,37.184377,248470,16%,Maralal
+Siaya,0.039184,34.279374,960919,43%,Sibo
+Taita-Taveta,-3.551502,38.376101,310299,20%,Tavevo
+Tharaka-Nithi,-0.227324,37.882411,423518,31%,"Nithi, Murugi Mugumango"
+Trans Nzoia,1.030597,34.949297,1005758,40%,Nzoia
+Turkana,3.318344,35.401457,975858,7%,Lodwar
+Uasin Gishu,0.555288,35.306307,1054331,37%,Eldoret
+Vihiga,0.0785,34.717749,652377,35%,Amatsi
+West Pokot,1.575837,35.316901,597239,13%,Kapenguria

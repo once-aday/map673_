@@ -1,0 +1,44 @@
+"County","Population in the County","Percentage of County population within service areas of WSPs","Water Coverage %","Sewerage Coverage %","hrs of supply","NRW %","O+M cost coverage %","Unit cost of water produced Ksh/m3","Unit operating cost of water billed Ksh/m3","Average tariff Ksh/m3","Weighted Score","WSPs in the County","Lat","Lon"
+"Baringo",631638,"6%","42%","0%",10,"69%","Eldama Ravine:22","KES63.00","KES207.00","KES43.00",40,"Eldama Ravine",0.512912,35.952537
+"Bungoma",1697243,"24%","80%","31%",22,"38%","Nzoia:92","KES50.00","KES78.00","KES67.00",109,"Nzoia",0.737046,34.672536
+"Busia",858259,"47%","72%","13%",20,"39%","Kakamega Busia:124","KES68.00","KES67.00","KES76.00",112,"Kakamega Busia",0.428414,34.210571
+"Elgeyo- Marakwet",424781,"12%","18%","0%",12,"32%","Iten Tambach:25",,,"KES52.00",57,"Iten Tambach",0.806011,35.564093
+"Embu",561607,"84%","61%","6%",22,"44%","Embe: 50 Embu: 167 Ngandori Nginda:139 Kyeni: 183 Ngagaka: 115","KES25.00","KES37.00","KES41.00",100,"Embe, Embu, Ngandori Nginda, Kyeni, Ngagaka",-0.5982,37.653906
+"Garissa",747177,"20%","61%","5%",22,"42%","Garissa 93","KES34.00","KES53.00","KES47.00",61,"Garissa",-0.564679,40.408457
+"Homa Bay",1101125,"11%","26%","14%",7,"31%","South Nyanza:49","KES42.00","KES59.00","KES28.00",76,"South Nyanza",-0.640985,34.411083
+"Isiolo",153968,"41%","53%","10%",12,"35%","Isiolo:90","KES62.00","KES91.00","KES77.00",111,"Isiolo",0.949302,38.614718
+"Kajiado",856926,"66%","32%","0%",12.491,"57%","Oloolaiser: 95 Olkejuado: 39 Nolturesh-Loitoktok: 51 Namanga:96","KES43.00","KES86.00","KES61.00",43,"Oloolaiser, Olkejuado, Nolturesh-Loitoktok, Namanga",-2.221971,36.980268
+"Kakamega",1844304,"22%","72%","13%",20,"39%","Kakamega-Busia:124","KES68.00","KES67.00","KES76.00",112,"Kakamega-Busia",0.308499,34.654844
+"Kericho",847123,"41%","60%","41%",22,"49%","Kericho:100 Tililbei:48","KES52.00","KES99.00","KES79.00",76,"Kericho, Tililbei",-0.297842,35.319833
+"Kiambu",1841976,"87%","70%","13%",20,"37%","Gatundu South: 116 Kikuyu: 83 Ruiru-Juja: 113 Thika: 98 Kiambu: 85 Githunguri: 77 Karimenu: 162 Karuri:62 Limuru: 104","KES40.00","KES60.00","KES56.00",117,"Gatundu South, Kikuyu, Ruiru-Juja, Thika, Kiambu, Githunguri, Karimenu, Karuri, Limuru",-1.060698,36.79929
+"Kilifi",1289613,"84%","63%","0%",18,"37%","Kilifi-Mariakani: 87 Malindi: 102","KES61.00","KES96.00","KES86.00",72,"Kilifi-Mariakani Malindi",-3.279972,39.63501
+"Kirinyaga",568864,"78%","32%","0%",19,"66%","Kirinyaga: 108","KES19.00","KES51.00","KES48.00",88,"Gichugu Kirinyaga",-0.517766,37.302006
+"Kisii",1319678,"53%","36%","84%",14,"48%","Gusii:73","KES58.00","KES107.00","KES75.00",40,"Gusii",-0.782524,34.766895
+"Kisumu",1105353,"37%","63%","14%",24,"42%","Kisumu: 103","KES59.00","KES98.00","KES99.00",121,"Gulf Nyanas Kisumu",-0.167225,34.953647
+"Kitui",1129118,"100%","32%","0%",16,"61%","Kiambere- Mwingi: 54 Kitui: 55","KES82.00","KES201.00","KES117.00",96,"Kiambere Mwingi Kitui",-1.519146,38.376101
+"Kwale",738931,"40%","66%","0%",15,"32%","Kwale:77","KES57.00","KES84.00","KES60.00",54,"Kwale",-4.242667,39.174233
+"Laikipia",483390,"36%","86%","49%",23,"40%","Nanyuki: 114 Nyahururu: 152 Rumuruti: 57","KES66.00","KES87.00","KES88.00",107,"Nanyuki, Nyahururu, Rumuruti",0.311627,36.814178
+"Lamu",114714,"19%","70%","0%",6,"36%","Lamu:85","KES51.00","KES69.00","KES54.00",87,"Lamu",-2.03752,40.688214
+"Machakos",1195193,"80%","43%","9%",11,"49%","Machakos: 91 Mavoko: 104 Matungulu Kangundo: 108 Mwala:77 Yatta: 29 Kathiani: 72","KES90.00","KES163.00","KES136.00",71,"Machakos, Mavoko, Matungulu Kangundo, Mwala, Yatta,Kathiani",-1.327138,37.352277
+"Makueni",1015492,"34%","32%","0%",13,"27%","Wote: 76 Kibwezi Makindu: 75","KES62.00","KES82.00","KES59.00",65,"Wote, Kibwezi Makindu",-2.211917,37.865047
+"Marsabit",334277,"14%","23%","0%",8,"38%","Moyale: n.d.","KES39.00","KES62.00","KES84.00",22,"Moyale",2.772167,37.76822
+"Meru",1547298,"38%","51%","6%",22,"39%","Imetha: 81 Meru: 113 Tuuru: 125","KES43.00","KES64.00","KES60.00",109,"Imetha, Meru, Tuuru",0.159398,37.750761
+"Migori",1065835,"24%","17%","0%",11,"37%","Mikutra: 55","KES85.00","KES133.00","KES56.00",46,"Mikutra",-1.008592,34.42681
+"Mombasa",1071654,"97%","57%","9%",6,"48%","Mombasa: 92","KES64.00","KES120.00","KES107.00",18,"Mombasa",-3.998813,39.632129
+"Murang'a",1069569,"90%","44%","3%",19,"58%","Gatanga: 110 Gatamathi: 88 Kahuti: 105 Muranga South: 83 Muranga: 99","KES23.00","KES46.00","KES39.00",67,"Gatanga, Gatamathi, Kahuti, Muranga South, Muranga",-0.804314,37.035566
+"Nairobi",3836698,"97%","80%","46%",18,"39%","Nairobi:105","KES36.00","KES53.00","KES55.00",115,"Nairobi",-1.296975,36.844534
+"Nakuru",1895066,"55%","77%","21%",17,"38%","Naivasha: 100 Nakuru: 96 Nakuru Rural: 81","KES49.00","KES76.00","KES69.00",102,"Naivasha, Nakuru, Nakuru Rural",-0.385212,36.036261
+"Nandi",868664,"9%","44%","0%",21,"37%","Kapsabet Nandi: 94","KES39.00","KES42.00","KES37.00",75,"Nyanas, Kapsabet Nandi",0.143371,35.156125
+"Narok",1000899,"7%","32%","0%",21,"41%","Narok:90","KES88.00","KES143.00","KES116.00",52,"Narok",-1.227452,35.686784
+"Nyamira",673572,"100%","36%","84%",14,"48%","Gusii: 74","KES58.00","KES107.00","KES75.00",40,"Gusii",-0.644917,34.955612
+"Nyandarua",701363,"38%","32%","0%",21,"41%","Engineer: n.d. Nyandarua: 46 Olkalou: 86","KES88.00","KES143.00","KES116.00",52,"Engineer, Nyandarua, Olkalou",-0.374727,36.494076
+"Nyeri",721748,"76%","69%","9%",23,"41%","Nyeri:134 Mathira: 120 Othaya Mukurweini: 87 Tetu Aberdare: 108","KES37.00","KES49.00","KES54.00",116,"Nyeri, Mathira, Othaya Mukurweini, Tetu Aberdare",-0.407168,36.965186
+"Samburu",248470,"16%","23%","0%",8,"40%","Maralal: 31","KES129.00","KES205.00","KES56.00",67,"Maralal",1.183862,37.184377
+"Siaya",960919,"43%","29%","0%",19,"53%","Sibo: 50","KES50.00","KES105.00","KES49.00",83,"Sibo",0.039184,34.279374
+"Taita-Taveta",310299,"20%","61%","0%",9,"43%","Tavevo: 73","KES57.00","KES96.00","KES68.00",30,"Tavevo",-3.551502,38.376101
+"Tharaka-Nithi",423518,"31%","73%","0%",24,"38%","Nithi: 115 Murugi Mugumango: n.d.","KES32.00","KES29.00","KES32.00",113,"Nithi, Murugi Mugumango",-0.227324,37.882411
+"Trans Nzoia",1005758,"40%","80%","31%",22,"38%","Nzoia: 92","KES50.00","KES78.00","KES67.00",109,"Nzoia",1.030597,34.949297
+"Turkana",975858,"7%","44%","0%",19,"45%","Lodwar: 85","KES44.00","KES76.00","KES60.00",57,"Lodwar",3.318344,35.401457
+"Uasin Gishu",1054331,"37%","70%","30%",16,"35%","Eldoret:107","KES49.00","KES61.00","KES59.00",126,"Eldoret",0.555288,35.306307
+"Vihiga",652377,"35%","15%","0%",12,"42%","Amatsi: 91","KES66.00","KES28.00","KES25.00",42,"Amatsi",0.0785,34.717749
+"West Pokot",597239,"13%","19%","0%",19,"29%","Kapenguria: 45","KES58.00","KES82.00","KES37.00",69,"Kapenguria",1.575837,35.316901
