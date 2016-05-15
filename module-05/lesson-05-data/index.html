@@ -22,11 +22,23 @@
           bottom:0;
           width: 100%;
         }
+        #ui-slider {
+            position: absolute;
+            top: 20px;
+            left: 60px;
+        }
     </style>
 </head>
 <body>
 
+    
     <div id='map'></div>
+    
+    <div id="ui-slider">
+         <input type="range" min="1", max="8", value="1", step="1" class="slider">
+    </div>
+    
+    
 
     <script>
         L.mapbox.accessToken = 'pk.eyJ1Ijoicmdkb25vaHVlIiwiYSI6Im5Ua3F4UzgifQ.PClcVzU5OUj17kuxqsY_Dg';
@@ -39,8 +51,49 @@
             maxBounds: L.latLngBounds([-6.22, 27.72],[5.76, 47.83])
         });
         
-        var countyCentroids = omnivore.csv('kenya_education_2014.csv').addTo(map);
+//        var countyCentroids = omnivore.csv('kenya_education_2014.csv').addTo(map);
+//        console.log(countyCentroids[]);
+        
+        var countyCentroids = omnivore.csv('kenya_education_2014.csv')
+            .on('ready', function(e) {
+                drawMap(e.target.toGeoJSON());
+            })
+            .on('error', function(e) {
+                console.log(e.error[0].message);
+        });
 
+        function drawMap(schoolData) {
+            var girls = L.geoJson(schoolData, {
+                    pointToLayer: function(feature, layer){
+                        return L.circleMarker(layer, {
+                            color: '#D96D02',
+                            opacity: 1,
+                            weight: 2,
+                            fillOpacity: 0,
+                            radius: calcRadius(Number(feature.properties.G1))
+                        });
+                    }
+                }).addTo(map);
+
+            var boys = L.geoJson(schoolData, {
+                pointToLayer: function(feature, layer){
+                    return L.circleMarker(layer, {
+                        color: '#6E77B0',
+                        opacity: 1,
+                        weight: 2,
+                        fillOpacity: 0,
+                        radius: calcRadius(Number(feature.properties.B1))
+                    });
+                }
+            }).addTo(map);
+        }
+
+        function calcRadius(val) {
+            var radius = Math.sqrt(val/Math.PI);
+            return radius * .6;
+        }
+        
+        
     </script>
 </body>
 </html>
