@@ -20,7 +20,145 @@
     <div id="map"></div>
 
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+    
+    <script type="cartocss/html" id="counties-styles">
+            /** choropleth visualization */
+
+            #uninsured_adults_county{
+              polygon-fill: #FFFFB2;
+              polygon-opacity: 0.8;
+              polygon-comp-op: lighten;
+              line-color: #FFF;
+              line-width: 0.5;
+              line-opacity: 1;
+            }
+            #uninsured_adults_county [ uninsured <= 52] {
+               polygon-fill: #B10026;
+            }
+            #uninsured_adults_county [ uninsured <= 43] {
+               polygon-fill: #E31A1C;
+            }
+            #uninsured_adults_county [ uninsured <= 36] {
+               polygon-fill: #FC4E2A;
+            }
+            #uninsured_adults_county [ uninsured <= 30] {
+               polygon-fill: #FD8D3C;
+            }
+            #uninsured_adults_county [ uninsured <= 23] {
+               polygon-fill: #FEB24C;
+            }
+            #uninsured_adults_county [ uninsured <= 17] {
+               polygon-fill: #FED976;
+            }
+            #uninsured_adults_county [ uninsured <= 10] {
+               polygon-fill: #FFFFB2;
+            }
+    </script>
+
+    
+    var url = "https://onceaday.cartodb.com/api/v2/viz/bb37f6d8-9afc-11e5-b1ff-0ea31932ec1d/viz.json"
+    
     <script>
+        
+        var url = "https://onceaday.cartodb.com/api/v2/viz/bb37f6d8-9afc-11e5-b1ff-0ea31932ec1d/viz.json";
+
+//        cartodb.createVis('map', url)
+//            .done(function(vis, layers) {
+//
+//                console.log(vis, layers);
+//                console.log(vis.getLayers()); /// same as layers here
+//                console.log(vis.getOverlays()); /// same as layers here
+//
+//                var sublayer = layers[1]; // reference to the layers
+//
+//                console.log(layers[1].getSubLayerCount()) // the number of layers
+//
+//                sublayer.setInteraction(true); // set the interaction true on the layers
+//
+//                // retrieve specific information from various features of the layers
+//                sublayer.on('featureOver', function(e, latlng, pos, data) {
+//                    console.log(e, latlng, pos, data);
+//                });
+//
+//                sublayer.setOpacity(.5); // change the opacity of the layers
+//
+//                sublayer.getSubLayer(2).hide();  // select a specific sublayer of the
+//                                                    // layers and hide it
+//        });
+        
+//        
+//        // instantiate our map
+//        var map = new L.Map("map", {
+//            center: [-10,5],  // note the map is centered closer to 0,0
+//            zoom: 4.5
+//        });
+//
+//         var url = "https://onceaday.cartodb.com/api/v2/viz/bb37f6d8-9afc-11e5-b1ff-0ea31932ec1d/viz.json"
+//
+//        cartodb.createLayer(map, url).addTo(map);
+        
+        
+        // instantiate our map
+    var map = new L.Map("map", {
+        center: [40,-104],  // note that the coordinates are back to lat/lon
+        zoom: 4
+    });
+
+    var cartoCSS = '#uninsured_adults_county{'+
+          'polygon-fill: steelblue;'+
+          'polygon-opacity: 0.8;'+
+          'polygon-comp-op: lighten;'+
+          'line-color: #FFF;'+
+          'line-width: 0.5;'+
+          'line-opacity: 1;'+
+        '}';
+
+    var sourceObject = {
+        user_name: 'rgdonohue',
+        type: 'cartodb',
+        sublayers: [
+            {
+                sql: "SELECT * FROM uninsured_adults_county",
+                cartocss: cartoCSS
+            }  
+        ]
+    }
+
+    cartodb.createLayer(map, sourceObject).addTo(map);
+        
+//        var gratCartoCSS = '#na_grat_clipped{' +
+//                                'line-color: #ffffff;' +
+//                                'line-width: 2;' +
+//                                'line-opacity: 0.1;' +
+//                            '}'
+//
+//        var landCartoCSS = '#na_land_clipped{' +
+//                            'polygon-fill: #323232;' +
+//                                'polygon-opacity: 1;' +
+//                                'line-color: #FFF;' +
+//                                'line-width: 0;' +
+//                                'line-opacity: 1;'+
+//                            '}'
+//
+//        var sourceObject = {
+//            user_name: 'rgdonohue',
+//            type: 'cartodb',
+//            sublayers: [
+//                {
+//                sql: "SELECT ST_Transform(the_geom, 2163) AS the_geom_webmercator FROM na_grat_clipped",
+//                        cartocss : gratCartoCSS
+//                },{
+//                        sql: "SELECT ST_Transform(the_geom, 2163) AS the_geom_webmercator FROM na_land_clipped",
+//                        cartocss : landCartoCSS
+//                },
+//                {
+//                    sql: "SELECT ST_Transform(the_geom, 2163) AS the_geom_webmercator, cartodb_id, uninsured FROM uninsured_adults_county",
+//                    cartocss: $("#counties-styles").text()
+//                }  
+//            ]
+//        }
+//
+//        cartodb.createLayer(map, sourceObject).addTo(map);
 
     </script>
 </body>
